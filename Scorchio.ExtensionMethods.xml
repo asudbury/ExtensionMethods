@@ -155,7 +155,7 @@
             <summary>
             Gets the attribute value or default.
             </summary>
-            <param name="instance">The instance.</param>
+            <param name="this">This.</param>
             <param name="attributeName">Name of the attribute.</param>
             <param name="defaultValue">The default value.</param>
             <returns></returns>
@@ -164,7 +164,7 @@
             <summary>
             Gets the element value or default.
             </summary>
-            <param name="instance">The instance.</param>
+            <param name="this">This.</param>
             <param name="elementName">Name of the element.</param>
             <param name="defaultValue">The default value.</param>
             <returns></returns>

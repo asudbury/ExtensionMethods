@@ -21,8 +21,8 @@
   - [ToTitleCase(this)](#M-Scorchio-ExtensionMethods-StringExtensions-ToTitleCase-System-String- 'Scorchio.ExtensionMethods.StringExtensions.ToTitleCase(System.String)')
   - [UpperCaseFirstCharacter(this)](#M-Scorchio-ExtensionMethods-StringExtensions-UpperCaseFirstCharacter-System-String- 'Scorchio.ExtensionMethods.StringExtensions.UpperCaseFirstCharacter(System.String)')
 - [XElementExtensions](#T-Scorchio-ExtensionMethods-XElementExtensions 'Scorchio.ExtensionMethods.XElementExtensions')
-  - [GetAttributeValueOrDefault(instance,attributeName,defaultValue)](#M-Scorchio-ExtensionMethods-XElementExtensions-GetAttributeValueOrDefault-System-Xml-Linq-XElement,System-String,System-String- 'Scorchio.ExtensionMethods.XElementExtensions.GetAttributeValueOrDefault(System.Xml.Linq.XElement,System.String,System.String)')
-  - [GetElementValueOrDefault(instance,elementName,defaultValue)](#M-Scorchio-ExtensionMethods-XElementExtensions-GetElementValueOrDefault-System-Xml-Linq-XElement,System-String,System-String- 'Scorchio.ExtensionMethods.XElementExtensions.GetElementValueOrDefault(System.Xml.Linq.XElement,System.String,System.String)')
+  - [GetAttributeValueOrDefault(this,attributeName,defaultValue)](#M-Scorchio-ExtensionMethods-XElementExtensions-GetAttributeValueOrDefault-System-Xml-Linq-XElement,System-String,System-String- 'Scorchio.ExtensionMethods.XElementExtensions.GetAttributeValueOrDefault(System.Xml.Linq.XElement,System.String,System.String)')
+  - [GetElementValueOrDefault(this,elementName,defaultValue)](#M-Scorchio-ExtensionMethods-XElementExtensions-GetElementValueOrDefault-System-Xml-Linq-XElement,System-String,System-String- 'Scorchio.ExtensionMethods.XElementExtensions.GetElementValueOrDefault(System.Xml.Linq.XElement,System.String,System.String)')
 
 <a name='assembly'></a>
 # Scorchio.ExtensionMethods [#](#assembly 'Go To Here') [=](#contents 'Back To Contents')
@@ -338,7 +338,7 @@ Scorchio.ExtensionMethods
 XElement Extensions
 
 <a name='M-Scorchio-ExtensionMethods-XElementExtensions-GetAttributeValueOrDefault-System-Xml-Linq-XElement,System-String,System-String-'></a>
-### GetAttributeValueOrDefault(instance,attributeName,defaultValue) `method` [#](#M-Scorchio-ExtensionMethods-XElementExtensions-GetAttributeValueOrDefault-System-Xml-Linq-XElement,System-String,System-String- 'Go To Here') [=](#contents 'Back To Contents')
+### GetAttributeValueOrDefault(this,attributeName,defaultValue) `method` [#](#M-Scorchio-ExtensionMethods-XElementExtensions-GetAttributeValueOrDefault-System-Xml-Linq-XElement,System-String,System-String- 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Summary
 
@@ -352,12 +352,12 @@ Gets the attribute value or default.
 
 | Name | Type | Description |
 | ---- | ---- | ----------- |
-| instance | [System.Xml.Linq.XElement](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.Xml.Linq.XElement 'System.Xml.Linq.XElement') | The instance. |
+| this | [System.Xml.Linq.XElement](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.Xml.Linq.XElement 'System.Xml.Linq.XElement') | This. |
 | attributeName | [System.String](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.String 'System.String') | Name of the attribute. |
 | defaultValue | [System.String](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.String 'System.String') | The default value. |
 
 <a name='M-Scorchio-ExtensionMethods-XElementExtensions-GetElementValueOrDefault-System-Xml-Linq-XElement,System-String,System-String-'></a>
-### GetElementValueOrDefault(instance,elementName,defaultValue) `method` [#](#M-Scorchio-ExtensionMethods-XElementExtensions-GetElementValueOrDefault-System-Xml-Linq-XElement,System-String,System-String- 'Go To Here') [=](#contents 'Back To Contents')
+### GetElementValueOrDefault(this,elementName,defaultValue) `method` [#](#M-Scorchio-ExtensionMethods-XElementExtensions-GetElementValueOrDefault-System-Xml-Linq-XElement,System-String,System-String- 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Summary
 
@@ -371,6 +371,6 @@ Gets the element value or default.
 
 | Name | Type | Description |
 | ---- | ---- | ----------- |
-| instance | [System.Xml.Linq.XElement](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.Xml.Linq.XElement 'System.Xml.Linq.XElement') | The instance. |
+| this | [System.Xml.Linq.XElement](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.Xml.Linq.XElement 'System.Xml.Linq.XElement') | This. |
 | elementName | [System.String](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.String 'System.String') | Name of the element. |
 | defaultValue | [System.String](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.String 'System.String') | The default value. |
