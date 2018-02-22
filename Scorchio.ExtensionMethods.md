@@ -32,6 +32,10 @@
 
 Scorchio.ExtensionMethods
 
+##### Summary
+
+DateTime Extensions
+
 <a name='M-Scorchio-ExtensionMethods-DateTimeExtensions-IsTimeEqual-System-DateTime,System-DateTime-'></a>
 ### IsTimeEqual(instance,timeToCompare) `method` [#](#M-Scorchio-ExtensionMethods-DateTimeExtensions-IsTimeEqual-System-DateTime,System-DateTime- 'Go To Here') [=](#contents 'Back To Contents')
 
@@ -181,6 +185,10 @@ Yesterdays the specified instance.
 
 Scorchio.ExtensionMethods
 
+##### Summary
+
+Object Extensions.
+
 <a name='M-Scorchio-ExtensionMethods-ObjectExtensions-SerializeToXml-System-Object-'></a>
 ### SerializeToXml(instance) `method` [#](#M-Scorchio-ExtensionMethods-ObjectExtensions-SerializeToXml-System-Object- 'Go To Here') [=](#contents 'Back To Contents')
 
@@ -204,6 +212,10 @@ Serializes to Xml.
 ##### Namespace
 
 Scorchio.ExtensionMethods
+
+##### Summary
+
+String Extensions.
 
 <a name='M-Scorchio-ExtensionMethods-StringExtensions-LowerCaseFirstCharacter-System-String-'></a>
 ### LowerCaseFirstCharacter(instance) `method` [#](#M-Scorchio-ExtensionMethods-StringExtensions-LowerCaseFirstCharacter-System-String- 'Go To Here') [=](#contents 'Back To Contents')
@@ -282,6 +294,10 @@ Uppercases the first character.
 ##### Namespace
 
 Scorchio.ExtensionMethods
+
+##### Summary
+
+XElement Extensions
 
 <a name='M-Scorchio-ExtensionMethods-XElementExtensions-GetAttributeValueOrDefault-System-Xml-Linq-XElement,System-String,System-String-'></a>
 ### GetAttributeValueOrDefault(instance,attributeName,defaultValue) `method` [#](#M-Scorchio-ExtensionMethods-XElementExtensions-GetAttributeValueOrDefault-System-Xml-Linq-XElement,System-String,System-String- 'Go To Here') [=](#contents 'Back To Contents')

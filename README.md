@@ -1,14 +1,6 @@
 # ExtensionMethods
 
 
-DateTime Extensions
 
-IsYesterday
-IsToday
-IsTomorrow
+[List of Extension methods](Scorchio.ExtensionMethods.md)
 
-
-String Extensions
-
-UpperCaseFirstCharacter
-LowerCaseFirstCharacter

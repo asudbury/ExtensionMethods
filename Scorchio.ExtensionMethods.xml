@@ -4,6 +4,11 @@
         <name>Scorchio.ExtensionMethods</name>
     </assembly>
     <members>
+        <member name="T:Scorchio.ExtensionMethods.DateTimeExtensions">
+            <summary>
+            DateTime Extensions
+            </summary>
+        </member>
         <member name="M:Scorchio.ExtensionMethods.DateTimeExtensions.IsYesterday(System.DateTime)">
             <summary>
             Determines whether this instance is yesterday.
@@ -71,12 +76,22 @@
             <param name="instance">The instance.</param>
             <returns></returns>
         </member>
+        <member name="T:Scorchio.ExtensionMethods.ObjectExtensions">
+            <summary>
+            Object Extensions.
+            </summary>
+        </member>
         <member name="M:Scorchio.ExtensionMethods.ObjectExtensions.SerializeToXml(System.Object)">
             <summary>
             Serializes to Xml.
             </summary>
             <param name="instance">The instance.</param>
             <returns></returns>
+        </member>
+        <member name="T:Scorchio.ExtensionMethods.StringExtensions">
+            <summary>
+            String Extensions.
+            </summary>
         </member>
         <member name="M:Scorchio.ExtensionMethods.StringExtensions.UpperCaseFirstCharacter(System.String)">
             <summary>
@@ -108,6 +123,11 @@
             <param name="length">The length.</param>
             <param name="character">The character.</param>
             <returns></returns>
+        </member>
+        <member name="T:Scorchio.ExtensionMethods.XElementExtensions">
+            <summary>
+            XElement Extensions
+            </summary>
         </member>
         <member name="M:Scorchio.ExtensionMethods.XElementExtensions.GetAttributeValueOrDefault(System.Xml.Linq.XElement,System.String,System.String)">
             <summary>
