@@ -10,87 +10,89 @@
         /// <summary>
         /// Uppercases the first character.
         /// </summary>
-        /// <param name="instance">The instance.</param>
+        /// <param name="this">This.</param>
         /// <returns></returns>
-        public static string UpperCaseFirstCharacter(this string instance)
+        public static string UpperCaseFirstCharacter(this string @this)
         {
-            if (string.IsNullOrEmpty(instance))
+            if (string.IsNullOrEmpty(@this))
             {
                 return string.Empty;
             }
 
-            if (instance.Length == 1)
+            if (@this.Length == 1)
             {
-                return char.ToUpper(instance[0]).ToString();
+                return char.ToUpper(@this[0]).ToString();
             }
 
-            return char.ToUpper(instance[0]) + instance.Substring(1);
+            return char.ToUpper(@this[0]) + @this.Substring(1);
         }
-        
+
         /// <summary>
         /// Lower cases the first character.
         /// </summary>
-        /// <param name="instance">The instance.</param>
-        /// <returns>The string.</returns>
-        public static string LowerCaseFirstCharacter(this string instance)
+        /// <param name="this">This.</param>
+        /// <returns>
+        /// The string.
+        /// </returns>
+        public static string LowerCaseFirstCharacter(this string @this)
         {
-            if (string.IsNullOrEmpty(instance))
+            if (string.IsNullOrEmpty(@this))
             {
                 return string.Empty;
             }
 
-            if (instance.Length == 1)
+            if (@this.Length == 1)
             {
-                return char.ToLower(instance[0]).ToString();
+                return char.ToLower(@this[0]).ToString();
             }
 
-            return char.ToLower(instance[0]) + instance.Substring(1);
+            return char.ToLower(@this[0]) + @this.Substring(1);
         }
 
         /// <summary>
         /// To the title case.
         /// </summary>
-        /// <param name="instance">The instance.</param>
+        /// <param name="this">This.</param>
         /// <returns></returns>
-        public static string ToTitleCase(this string instance)
+        public static string ToTitleCase(this string @this)
         {
-            return string.IsNullOrEmpty(instance) ? 
+            return string.IsNullOrEmpty(@this) ? 
                             string.Empty : 
-                            CultureInfo.InvariantCulture.TextInfo.ToTitleCase(instance.ToLower());
+                            CultureInfo.InvariantCulture.TextInfo.ToTitleCase(@this.ToLower());
         }
 
         /// <summary>
         /// Obfuscates the substring.
         /// </summary>
-        /// <param name="instance">The instance.</param>
+        /// <param name="this">The this.</param>
         /// <param name="startPoint">The start point.</param>
         /// <param name="length">The length.</param>
         /// <param name="character">The character.</param>
         /// <returns></returns>
         public static string Obfuscate(
-            this string instance, 
+            this string @this, 
             int startPoint, 
             int length,
             char character = '*')
         {
-            if (string.IsNullOrEmpty(instance))
+            if (string.IsNullOrEmpty(@this))
             {
                 return string.Empty;
             }
 
-            if (instance.Length < startPoint)
+            if (@this.Length < startPoint)
             {
-                return instance;
+                return @this;
             }
 
-            if (instance.Length < startPoint + length)
+            if (@this.Length < startPoint + length)
             {
-                return instance;
+                return @this;
             }
 
-            string start = instance.Substring(0, startPoint);
+            string start = @this.Substring(0, startPoint);
 
-            string end = instance.Substring(startPoint + length);
+            string end = @this.Substring(startPoint + length);
             
             return string.Concat(start, new string(character, length), end);
         }

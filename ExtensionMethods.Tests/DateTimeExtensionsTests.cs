@@ -7,14 +7,10 @@
     public class DateTimeExtensionsTests
     {
         /// <summary>
-        /// Tests the is yesterday false..
+        /// Tests the is yesterday false.
         /// </summary>
-        /// <param name="input">The input.</param>
-        /// <param name="expected">The expected.</param>
         [Test]
-        public void TestIsYesterdayFalse(
-            DateTime input,
-            string expected)
+        public void TestIsYesterdayFalse()
         {
             DateTime inputDateTime = DateTime.Today;
 

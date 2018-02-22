@@ -11,15 +11,15 @@
         /// <summary>
         /// Serializes to Xml.
         /// </summary>
-        /// <param name="instance">The instance.</param>
+        /// <param name="this">This.</param>
         /// <returns></returns>
-        public static string SerializeToXml(this object instance)
+        public static string SerializeToXml(this object @this)
         {
-            XmlSerializer xmlSerializer = new XmlSerializer(instance.GetType());
+            XmlSerializer xmlSerializer = new XmlSerializer(@this.GetType());
 
             using (StringWriter stringWriter = new StringWriter())
             {
-                xmlSerializer.Serialize(stringWriter, instance);
+                xmlSerializer.Serialize(stringWriter, @this);
 
                 using (StringReader streamReader = new StringReader(stringWriter.GetStringBuilder().ToString()))
                 {

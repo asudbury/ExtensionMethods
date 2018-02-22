@@ -2,22 +2,24 @@
 # Contents [#](#contents 'Go To Here')
 
 - [DateTimeExtensions](#T-Scorchio-ExtensionMethods-DateTimeExtensions 'Scorchio.ExtensionMethods.DateTimeExtensions')
-  - [IsTimeEqual(instance,timeToCompare)](#M-Scorchio-ExtensionMethods-DateTimeExtensions-IsTimeEqual-System-DateTime,System-DateTime- 'Scorchio.ExtensionMethods.DateTimeExtensions.IsTimeEqual(System.DateTime,System.DateTime)')
-  - [IsToday(instance)](#M-Scorchio-ExtensionMethods-DateTimeExtensions-IsToday-System-DateTime- 'Scorchio.ExtensionMethods.DateTimeExtensions.IsToday(System.DateTime)')
-  - [IsTomorrow(instance)](#M-Scorchio-ExtensionMethods-DateTimeExtensions-IsTomorrow-System-DateTime- 'Scorchio.ExtensionMethods.DateTimeExtensions.IsTomorrow(System.DateTime)')
-  - [IsWeekDay(instance)](#M-Scorchio-ExtensionMethods-DateTimeExtensions-IsWeekDay-System-DateTime- 'Scorchio.ExtensionMethods.DateTimeExtensions.IsWeekDay(System.DateTime)')
-  - [IsWeekendDay(instance)](#M-Scorchio-ExtensionMethods-DateTimeExtensions-IsWeekendDay-System-DateTime- 'Scorchio.ExtensionMethods.DateTimeExtensions.IsWeekendDay(System.DateTime)')
-  - [IsYesterday(instance)](#M-Scorchio-ExtensionMethods-DateTimeExtensions-IsYesterday-System-DateTime- 'Scorchio.ExtensionMethods.DateTimeExtensions.IsYesterday(System.DateTime)')
-  - [StartOfYear(instance)](#M-Scorchio-ExtensionMethods-DateTimeExtensions-StartOfYear-System-DateTime- 'Scorchio.ExtensionMethods.DateTimeExtensions.StartOfYear(System.DateTime)')
-  - [Tomorrow(instance)](#M-Scorchio-ExtensionMethods-DateTimeExtensions-Tomorrow-System-DateTime- 'Scorchio.ExtensionMethods.DateTimeExtensions.Tomorrow(System.DateTime)')
-  - [Yesterday(instance)](#M-Scorchio-ExtensionMethods-DateTimeExtensions-Yesterday-System-DateTime- 'Scorchio.ExtensionMethods.DateTimeExtensions.Yesterday(System.DateTime)')
+  - [IsTimeEqual(this,timeToCompare)](#M-Scorchio-ExtensionMethods-DateTimeExtensions-IsTimeEqual-System-DateTime,System-DateTime- 'Scorchio.ExtensionMethods.DateTimeExtensions.IsTimeEqual(System.DateTime,System.DateTime)')
+  - [IsToday(this)](#M-Scorchio-ExtensionMethods-DateTimeExtensions-IsToday-System-DateTime- 'Scorchio.ExtensionMethods.DateTimeExtensions.IsToday(System.DateTime)')
+  - [IsTomorrow(this)](#M-Scorchio-ExtensionMethods-DateTimeExtensions-IsTomorrow-System-DateTime- 'Scorchio.ExtensionMethods.DateTimeExtensions.IsTomorrow(System.DateTime)')
+  - [IsWeekDay(this)](#M-Scorchio-ExtensionMethods-DateTimeExtensions-IsWeekDay-System-DateTime- 'Scorchio.ExtensionMethods.DateTimeExtensions.IsWeekDay(System.DateTime)')
+  - [IsWeekendDay(this)](#M-Scorchio-ExtensionMethods-DateTimeExtensions-IsWeekendDay-System-DateTime- 'Scorchio.ExtensionMethods.DateTimeExtensions.IsWeekendDay(System.DateTime)')
+  - [IsYesterday(this)](#M-Scorchio-ExtensionMethods-DateTimeExtensions-IsYesterday-System-DateTime- 'Scorchio.ExtensionMethods.DateTimeExtensions.IsYesterday(System.DateTime)')
+  - [StartOfYear(this)](#M-Scorchio-ExtensionMethods-DateTimeExtensions-StartOfYear-System-DateTime- 'Scorchio.ExtensionMethods.DateTimeExtensions.StartOfYear(System.DateTime)')
+  - [Tomorrow(this)](#M-Scorchio-ExtensionMethods-DateTimeExtensions-Tomorrow-System-DateTime- 'Scorchio.ExtensionMethods.DateTimeExtensions.Tomorrow(System.DateTime)')
+  - [Yesterday(this)](#M-Scorchio-ExtensionMethods-DateTimeExtensions-Yesterday-System-DateTime- 'Scorchio.ExtensionMethods.DateTimeExtensions.Yesterday(System.DateTime)')
+- [MailMessageExtensions](#T-Scorchio-ExtensionMethods-MailMessageExtensions 'Scorchio.ExtensionMethods.MailMessageExtensions')
+  - [Send(this)](#M-Scorchio-ExtensionMethods-MailMessageExtensions-Send-System-Net-Mail-MailMessage- 'Scorchio.ExtensionMethods.MailMessageExtensions.Send(System.Net.Mail.MailMessage)')
 - [ObjectExtensions](#T-Scorchio-ExtensionMethods-ObjectExtensions 'Scorchio.ExtensionMethods.ObjectExtensions')
-  - [SerializeToXml(instance)](#M-Scorchio-ExtensionMethods-ObjectExtensions-SerializeToXml-System-Object- 'Scorchio.ExtensionMethods.ObjectExtensions.SerializeToXml(System.Object)')
+  - [SerializeToXml(this)](#M-Scorchio-ExtensionMethods-ObjectExtensions-SerializeToXml-System-Object- 'Scorchio.ExtensionMethods.ObjectExtensions.SerializeToXml(System.Object)')
 - [StringExtensions](#T-Scorchio-ExtensionMethods-StringExtensions 'Scorchio.ExtensionMethods.StringExtensions')
-  - [LowerCaseFirstCharacter(instance)](#M-Scorchio-ExtensionMethods-StringExtensions-LowerCaseFirstCharacter-System-String- 'Scorchio.ExtensionMethods.StringExtensions.LowerCaseFirstCharacter(System.String)')
-  - [Obfuscate(instance,startPoint,length,character)](#M-Scorchio-ExtensionMethods-StringExtensions-Obfuscate-System-String,System-Int32,System-Int32,System-Char- 'Scorchio.ExtensionMethods.StringExtensions.Obfuscate(System.String,System.Int32,System.Int32,System.Char)')
-  - [ToTitleCase(instance)](#M-Scorchio-ExtensionMethods-StringExtensions-ToTitleCase-System-String- 'Scorchio.ExtensionMethods.StringExtensions.ToTitleCase(System.String)')
-  - [UpperCaseFirstCharacter(instance)](#M-Scorchio-ExtensionMethods-StringExtensions-UpperCaseFirstCharacter-System-String- 'Scorchio.ExtensionMethods.StringExtensions.UpperCaseFirstCharacter(System.String)')
+  - [LowerCaseFirstCharacter(this)](#M-Scorchio-ExtensionMethods-StringExtensions-LowerCaseFirstCharacter-System-String- 'Scorchio.ExtensionMethods.StringExtensions.LowerCaseFirstCharacter(System.String)')
+  - [Obfuscate(this,startPoint,length,character)](#M-Scorchio-ExtensionMethods-StringExtensions-Obfuscate-System-String,System-Int32,System-Int32,System-Char- 'Scorchio.ExtensionMethods.StringExtensions.Obfuscate(System.String,System.Int32,System.Int32,System.Char)')
+  - [ToTitleCase(this)](#M-Scorchio-ExtensionMethods-StringExtensions-ToTitleCase-System-String- 'Scorchio.ExtensionMethods.StringExtensions.ToTitleCase(System.String)')
+  - [UpperCaseFirstCharacter(this)](#M-Scorchio-ExtensionMethods-StringExtensions-UpperCaseFirstCharacter-System-String- 'Scorchio.ExtensionMethods.StringExtensions.UpperCaseFirstCharacter(System.String)')
 - [XElementExtensions](#T-Scorchio-ExtensionMethods-XElementExtensions 'Scorchio.ExtensionMethods.XElementExtensions')
   - [GetAttributeValueOrDefault(instance,attributeName,defaultValue)](#M-Scorchio-ExtensionMethods-XElementExtensions-GetAttributeValueOrDefault-System-Xml-Linq-XElement,System-String,System-String- 'Scorchio.ExtensionMethods.XElementExtensions.GetAttributeValueOrDefault(System.Xml.Linq.XElement,System.String,System.String)')
   - [GetElementValueOrDefault(instance,elementName,defaultValue)](#M-Scorchio-ExtensionMethods-XElementExtensions-GetElementValueOrDefault-System-Xml-Linq-XElement,System-String,System-String- 'Scorchio.ExtensionMethods.XElementExtensions.GetElementValueOrDefault(System.Xml.Linq.XElement,System.String,System.String)')
@@ -37,7 +39,7 @@ Scorchio.ExtensionMethods
 DateTime Extensions
 
 <a name='M-Scorchio-ExtensionMethods-DateTimeExtensions-IsTimeEqual-System-DateTime,System-DateTime-'></a>
-### IsTimeEqual(instance,timeToCompare) `method` [#](#M-Scorchio-ExtensionMethods-DateTimeExtensions-IsTimeEqual-System-DateTime,System-DateTime- 'Go To Here') [=](#contents 'Back To Contents')
+### IsTimeEqual(this,timeToCompare) `method` [#](#M-Scorchio-ExtensionMethods-DateTimeExtensions-IsTimeEqual-System-DateTime,System-DateTime- 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Summary
 
@@ -51,37 +53,45 @@ Determines whether [is time equal] [the specified time to compare].
 
 | Name | Type | Description |
 | ---- | ---- | ----------- |
-| instance | [System.DateTime](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.DateTime 'System.DateTime') | The instance. |
+| this | [System.DateTime](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.DateTime 'System.DateTime') | This. |
 | timeToCompare | [System.DateTime](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.DateTime 'System.DateTime') | The time to compare. |
 
 <a name='M-Scorchio-ExtensionMethods-DateTimeExtensions-IsToday-System-DateTime-'></a>
-### IsToday(instance) `method` [#](#M-Scorchio-ExtensionMethods-DateTimeExtensions-IsToday-System-DateTime- 'Go To Here') [=](#contents 'Back To Contents')
+### IsToday(this) `method` [#](#M-Scorchio-ExtensionMethods-DateTimeExtensions-IsToday-System-DateTime- 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Summary
 
 Determines whether this instance is today.
 
+##### Returns
+
+`true` if the specified this is today; otherwise, `false`.
+
 ##### Parameters
 
 | Name | Type | Description |
 | ---- | ---- | ----------- |
-| instance | [System.DateTime](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.DateTime 'System.DateTime') | The instance. |
+| this | [System.DateTime](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.DateTime 'System.DateTime') | This. |
 
 <a name='M-Scorchio-ExtensionMethods-DateTimeExtensions-IsTomorrow-System-DateTime-'></a>
-### IsTomorrow(instance) `method` [#](#M-Scorchio-ExtensionMethods-DateTimeExtensions-IsTomorrow-System-DateTime- 'Go To Here') [=](#contents 'Back To Contents')
+### IsTomorrow(this) `method` [#](#M-Scorchio-ExtensionMethods-DateTimeExtensions-IsTomorrow-System-DateTime- 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Summary
 
 Determines whether this instance is tomorrow.
 
+##### Returns
+
+`true` if the specified this is tomorrow; otherwise, `false`.
+
 ##### Parameters
 
 | Name | Type | Description |
 | ---- | ---- | ----------- |
-| instance | [System.DateTime](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.DateTime 'System.DateTime') | The instance. |
+| this | [System.DateTime](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.DateTime 'System.DateTime') | This. |
 
 <a name='M-Scorchio-ExtensionMethods-DateTimeExtensions-IsWeekDay-System-DateTime-'></a>
-### IsWeekDay(instance) `method` [#](#M-Scorchio-ExtensionMethods-DateTimeExtensions-IsWeekDay-System-DateTime- 'Go To Here') [=](#contents 'Back To Contents')
+### IsWeekDay(this) `method` [#](#M-Scorchio-ExtensionMethods-DateTimeExtensions-IsWeekDay-System-DateTime- 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Summary
 
@@ -95,10 +105,10 @@ Determines whether [is week day].
 
 | Name | Type | Description |
 | ---- | ---- | ----------- |
-| instance | [System.DateTime](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.DateTime 'System.DateTime') | The instance. |
+| this | [System.DateTime](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.DateTime 'System.DateTime') | This. |
 
 <a name='M-Scorchio-ExtensionMethods-DateTimeExtensions-IsWeekendDay-System-DateTime-'></a>
-### IsWeekendDay(instance) `method` [#](#M-Scorchio-ExtensionMethods-DateTimeExtensions-IsWeekendDay-System-DateTime- 'Go To Here') [=](#contents 'Back To Contents')
+### IsWeekendDay(this) `method` [#](#M-Scorchio-ExtensionMethods-DateTimeExtensions-IsWeekendDay-System-DateTime- 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Summary
 
@@ -112,23 +122,27 @@ Determines whether [is weekend day].
 
 | Name | Type | Description |
 | ---- | ---- | ----------- |
-| instance | [System.DateTime](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.DateTime 'System.DateTime') | The instance. |
+| this | [System.DateTime](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.DateTime 'System.DateTime') | This. |
 
 <a name='M-Scorchio-ExtensionMethods-DateTimeExtensions-IsYesterday-System-DateTime-'></a>
-### IsYesterday(instance) `method` [#](#M-Scorchio-ExtensionMethods-DateTimeExtensions-IsYesterday-System-DateTime- 'Go To Here') [=](#contents 'Back To Contents')
+### IsYesterday(this) `method` [#](#M-Scorchio-ExtensionMethods-DateTimeExtensions-IsYesterday-System-DateTime- 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Summary
 
 Determines whether this instance is yesterday.
 
+##### Returns
+
+`true` if the specified this is yesterday; otherwise, `false`.
+
 ##### Parameters
 
 | Name | Type | Description |
 | ---- | ---- | ----------- |
-| instance | [System.DateTime](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.DateTime 'System.DateTime') | The instance. |
+| this | [System.DateTime](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.DateTime 'System.DateTime') | This. |
 
 <a name='M-Scorchio-ExtensionMethods-DateTimeExtensions-StartOfYear-System-DateTime-'></a>
-### StartOfYear(instance) `method` [#](#M-Scorchio-ExtensionMethods-DateTimeExtensions-StartOfYear-System-DateTime- 'Go To Here') [=](#contents 'Back To Contents')
+### StartOfYear(this) `method` [#](#M-Scorchio-ExtensionMethods-DateTimeExtensions-StartOfYear-System-DateTime- 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Summary
 
@@ -142,10 +156,10 @@ Starts the of year.
 
 | Name | Type | Description |
 | ---- | ---- | ----------- |
-| instance | [System.DateTime](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.DateTime 'System.DateTime') | The instance. |
+| this | [System.DateTime](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.DateTime 'System.DateTime') | This. |
 
 <a name='M-Scorchio-ExtensionMethods-DateTimeExtensions-Tomorrow-System-DateTime-'></a>
-### Tomorrow(instance) `method` [#](#M-Scorchio-ExtensionMethods-DateTimeExtensions-Tomorrow-System-DateTime- 'Go To Here') [=](#contents 'Back To Contents')
+### Tomorrow(this) `method` [#](#M-Scorchio-ExtensionMethods-DateTimeExtensions-Tomorrow-System-DateTime- 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Summary
 
@@ -159,10 +173,10 @@ Tomorrows the specified instance.
 
 | Name | Type | Description |
 | ---- | ---- | ----------- |
-| instance | [System.DateTime](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.DateTime 'System.DateTime') | The instance. |
+| this | [System.DateTime](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.DateTime 'System.DateTime') | This. |
 
 <a name='M-Scorchio-ExtensionMethods-DateTimeExtensions-Yesterday-System-DateTime-'></a>
-### Yesterday(instance) `method` [#](#M-Scorchio-ExtensionMethods-DateTimeExtensions-Yesterday-System-DateTime- 'Go To Here') [=](#contents 'Back To Contents')
+### Yesterday(this) `method` [#](#M-Scorchio-ExtensionMethods-DateTimeExtensions-Yesterday-System-DateTime- 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Summary
 
@@ -176,7 +190,31 @@ Yesterdays the specified instance.
 
 | Name | Type | Description |
 | ---- | ---- | ----------- |
-| instance | [System.DateTime](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.DateTime 'System.DateTime') | The instance. |
+| this | [System.DateTime](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.DateTime 'System.DateTime') | This. |
+
+<a name='T-Scorchio-ExtensionMethods-MailMessageExtensions'></a>
+## MailMessageExtensions [#](#T-Scorchio-ExtensionMethods-MailMessageExtensions 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Namespace
+
+Scorchio.ExtensionMethods
+
+##### Summary
+
+MailMessage Extensions.
+
+<a name='M-Scorchio-ExtensionMethods-MailMessageExtensions-Send-System-Net-Mail-MailMessage-'></a>
+### Send(this) `method` [#](#M-Scorchio-ExtensionMethods-MailMessageExtensions-Send-System-Net-Mail-MailMessage- 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+Sends the specified instance.
+
+##### Parameters
+
+| Name | Type | Description |
+| ---- | ---- | ----------- |
+| this | [System.Net.Mail.MailMessage](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.Net.Mail.MailMessage 'System.Net.Mail.MailMessage') | The this. |
 
 <a name='T-Scorchio-ExtensionMethods-ObjectExtensions'></a>
 ## ObjectExtensions [#](#T-Scorchio-ExtensionMethods-ObjectExtensions 'Go To Here') [=](#contents 'Back To Contents')
@@ -190,7 +228,7 @@ Scorchio.ExtensionMethods
 Object Extensions.
 
 <a name='M-Scorchio-ExtensionMethods-ObjectExtensions-SerializeToXml-System-Object-'></a>
-### SerializeToXml(instance) `method` [#](#M-Scorchio-ExtensionMethods-ObjectExtensions-SerializeToXml-System-Object- 'Go To Here') [=](#contents 'Back To Contents')
+### SerializeToXml(this) `method` [#](#M-Scorchio-ExtensionMethods-ObjectExtensions-SerializeToXml-System-Object- 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Summary
 
@@ -204,7 +242,7 @@ Serializes to Xml.
 
 | Name | Type | Description |
 | ---- | ---- | ----------- |
-| instance | [System.Object](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.Object 'System.Object') | The instance. |
+| this | [System.Object](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.Object 'System.Object') | This. |
 
 <a name='T-Scorchio-ExtensionMethods-StringExtensions'></a>
 ## StringExtensions [#](#T-Scorchio-ExtensionMethods-StringExtensions 'Go To Here') [=](#contents 'Back To Contents')
@@ -218,7 +256,7 @@ Scorchio.ExtensionMethods
 String Extensions.
 
 <a name='M-Scorchio-ExtensionMethods-StringExtensions-LowerCaseFirstCharacter-System-String-'></a>
-### LowerCaseFirstCharacter(instance) `method` [#](#M-Scorchio-ExtensionMethods-StringExtensions-LowerCaseFirstCharacter-System-String- 'Go To Here') [=](#contents 'Back To Contents')
+### LowerCaseFirstCharacter(this) `method` [#](#M-Scorchio-ExtensionMethods-StringExtensions-LowerCaseFirstCharacter-System-String- 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Summary
 
@@ -232,10 +270,10 @@ The string.
 
 | Name | Type | Description |
 | ---- | ---- | ----------- |
-| instance | [System.String](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.String 'System.String') | The instance. |
+| this | [System.String](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.String 'System.String') | This. |
 
 <a name='M-Scorchio-ExtensionMethods-StringExtensions-Obfuscate-System-String,System-Int32,System-Int32,System-Char-'></a>
-### Obfuscate(instance,startPoint,length,character) `method` [#](#M-Scorchio-ExtensionMethods-StringExtensions-Obfuscate-System-String,System-Int32,System-Int32,System-Char- 'Go To Here') [=](#contents 'Back To Contents')
+### Obfuscate(this,startPoint,length,character) `method` [#](#M-Scorchio-ExtensionMethods-StringExtensions-Obfuscate-System-String,System-Int32,System-Int32,System-Char- 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Summary
 
@@ -249,13 +287,13 @@ Obfuscates the substring.
 
 | Name | Type | Description |
 | ---- | ---- | ----------- |
-| instance | [System.String](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.String 'System.String') | The instance. |
+| this | [System.String](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.String 'System.String') | The this. |
 | startPoint | [System.Int32](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.Int32 'System.Int32') | The start point. |
 | length | [System.Int32](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.Int32 'System.Int32') | The length. |
 | character | [System.Char](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.Char 'System.Char') | The character. |
 
 <a name='M-Scorchio-ExtensionMethods-StringExtensions-ToTitleCase-System-String-'></a>
-### ToTitleCase(instance) `method` [#](#M-Scorchio-ExtensionMethods-StringExtensions-ToTitleCase-System-String- 'Go To Here') [=](#contents 'Back To Contents')
+### ToTitleCase(this) `method` [#](#M-Scorchio-ExtensionMethods-StringExtensions-ToTitleCase-System-String- 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Summary
 
@@ -269,10 +307,10 @@ To the title case.
 
 | Name | Type | Description |
 | ---- | ---- | ----------- |
-| instance | [System.String](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.String 'System.String') | The instance. |
+| this | [System.String](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.String 'System.String') | This. |
 
 <a name='M-Scorchio-ExtensionMethods-StringExtensions-UpperCaseFirstCharacter-System-String-'></a>
-### UpperCaseFirstCharacter(instance) `method` [#](#M-Scorchio-ExtensionMethods-StringExtensions-UpperCaseFirstCharacter-System-String- 'Go To Here') [=](#contents 'Back To Contents')
+### UpperCaseFirstCharacter(this) `method` [#](#M-Scorchio-ExtensionMethods-StringExtensions-UpperCaseFirstCharacter-System-String- 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Summary
 
@@ -286,7 +324,7 @@ Uppercases the first character.
 
 | Name | Type | Description |
 | ---- | ---- | ----------- |
-| instance | [System.String](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.String 'System.String') | The instance. |
+| this | [System.String](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.String 'System.String') | This. |
 
 <a name='T-Scorchio-ExtensionMethods-XElementExtensions'></a>
 ## XElementExtensions [#](#T-Scorchio-ExtensionMethods-XElementExtensions 'Go To Here') [=](#contents 'Back To Contents')

@@ -13,39 +13,48 @@
             <summary>
             Determines whether this instance is yesterday.
             </summary>
-            <param name="instance">The instance.</param>
+            <param name="this">This.</param>
+            <returns>
+              <c>true</c> if the specified this is yesterday; otherwise, <c>false</c>.
+            </returns>
         </member>
         <member name="M:Scorchio.ExtensionMethods.DateTimeExtensions.Yesterday(System.DateTime)">
             <summary>
             Yesterdays the specified instance.
             </summary>
-            <param name="instance">The instance.</param>
+            <param name="this">This.</param>
             <returns></returns>
         </member>
         <member name="M:Scorchio.ExtensionMethods.DateTimeExtensions.IsToday(System.DateTime)">
             <summary>
             Determines whether this instance is today.
             </summary>
-            <param name="instance">The instance.</param>
+            <param name="this">This.</param>
+            <returns>
+              <c>true</c> if the specified this is today; otherwise, <c>false</c>.
+            </returns>
         </member>
         <member name="M:Scorchio.ExtensionMethods.DateTimeExtensions.IsTomorrow(System.DateTime)">
             <summary>
             Determines whether this instance is tomorrow.
             </summary>
-            <param name="instance">The instance.</param>
+            <param name="this">This.</param>
+            <returns>
+              <c>true</c> if the specified this is tomorrow; otherwise, <c>false</c>.
+            </returns>
         </member>
         <member name="M:Scorchio.ExtensionMethods.DateTimeExtensions.Tomorrow(System.DateTime)">
             <summary>
             Tomorrows the specified instance.
             </summary>
-            <param name="instance">The instance.</param>
+            <param name="this">This.</param>
             <returns></returns>
         </member>
         <member name="M:Scorchio.ExtensionMethods.DateTimeExtensions.IsWeekDay(System.DateTime)">
             <summary>
             Determines whether [is week day].
             </summary>
-            <param name="instance">The instance.</param>
+            <param name="this">This.</param>
             <returns>
               <c>true</c> if [is week day] [the specified instance]; otherwise, <c>false</c>.
             </returns>
@@ -54,7 +63,7 @@
             <summary>
             Determines whether [is weekend day].
             </summary>
-            <param name="instance">The instance.</param>
+            <param name="this">This.</param>
             <returns>
               <c>true</c> if [is weekend day] [the specified instance]; otherwise, <c>false</c>.
             </returns>
@@ -63,7 +72,7 @@
             <summary>
             Determines whether [is time equal] [the specified time to compare].
             </summary>
-            <param name="instance">The instance.</param>
+            <param name="this">This.</param>
             <param name="timeToCompare">The time to compare.</param>
             <returns>
               <c>true</c> if [is time equal] [the specified time to compare]; otherwise, <c>false</c>.
@@ -73,8 +82,19 @@
             <summary>
             Starts the of year.
             </summary>
-            <param name="instance">The instance.</param>
+            <param name="this">This.</param>
             <returns></returns>
+        </member>
+        <member name="T:Scorchio.ExtensionMethods.MailMessageExtensions">
+            <summary>
+            MailMessage Extensions.
+            </summary>
+        </member>
+        <member name="M:Scorchio.ExtensionMethods.MailMessageExtensions.Send(System.Net.Mail.MailMessage)">
+            <summary>
+            Sends the specified instance.
+            </summary>
+            <param name="this">The this.</param>
         </member>
         <member name="T:Scorchio.ExtensionMethods.ObjectExtensions">
             <summary>
@@ -85,7 +105,7 @@
             <summary>
             Serializes to Xml.
             </summary>
-            <param name="instance">The instance.</param>
+            <param name="this">This.</param>
             <returns></returns>
         </member>
         <member name="T:Scorchio.ExtensionMethods.StringExtensions">
@@ -97,28 +117,30 @@
             <summary>
             Uppercases the first character.
             </summary>
-            <param name="instance">The instance.</param>
+            <param name="this">This.</param>
             <returns></returns>
         </member>
         <member name="M:Scorchio.ExtensionMethods.StringExtensions.LowerCaseFirstCharacter(System.String)">
             <summary>
             Lower cases the first character.
             </summary>
-            <param name="instance">The instance.</param>
-            <returns>The string.</returns>
+            <param name="this">This.</param>
+            <returns>
+            The string.
+            </returns>
         </member>
         <member name="M:Scorchio.ExtensionMethods.StringExtensions.ToTitleCase(System.String)">
             <summary>
             To the title case.
             </summary>
-            <param name="instance">The instance.</param>
+            <param name="this">This.</param>
             <returns></returns>
         </member>
         <member name="M:Scorchio.ExtensionMethods.StringExtensions.Obfuscate(System.String,System.Int32,System.Int32,System.Char)">
             <summary>
             Obfuscates the substring.
             </summary>
-            <param name="instance">The instance.</param>
+            <param name="this">The this.</param>
             <param name="startPoint">The start point.</param>
             <param name="length">The length.</param>
             <param name="character">The character.</param>
