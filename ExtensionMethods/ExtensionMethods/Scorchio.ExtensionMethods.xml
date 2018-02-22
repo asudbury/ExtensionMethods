@@ -1,0 +1,131 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Scorchio.ExtensionMethods</name>
+    </assembly>
+    <members>
+        <member name="M:Scorchio.ExtensionMethods.DateTimeExtensions.IsYesterday(System.DateTime)">
+            <summary>
+            Determines whether this instance is yesterday.
+            </summary>
+            <param name="instance">The instance.</param>
+        </member>
+        <member name="M:Scorchio.ExtensionMethods.DateTimeExtensions.Yesterday(System.DateTime)">
+            <summary>
+            Yesterdays the specified instance.
+            </summary>
+            <param name="instance">The instance.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Scorchio.ExtensionMethods.DateTimeExtensions.IsToday(System.DateTime)">
+            <summary>
+            Determines whether this instance is today.
+            </summary>
+            <param name="instance">The instance.</param>
+        </member>
+        <member name="M:Scorchio.ExtensionMethods.DateTimeExtensions.IsTomorrow(System.DateTime)">
+            <summary>
+            Determines whether this instance is tomorrow.
+            </summary>
+            <param name="instance">The instance.</param>
+        </member>
+        <member name="M:Scorchio.ExtensionMethods.DateTimeExtensions.Tomorrow(System.DateTime)">
+            <summary>
+            Tomorrows the specified instance.
+            </summary>
+            <param name="instance">The instance.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Scorchio.ExtensionMethods.DateTimeExtensions.IsWeekDay(System.DateTime)">
+            <summary>
+            Determines whether [is week day].
+            </summary>
+            <param name="instance">The instance.</param>
+            <returns>
+              <c>true</c> if [is week day] [the specified instance]; otherwise, <c>false</c>.
+            </returns>
+        </member>
+        <member name="M:Scorchio.ExtensionMethods.DateTimeExtensions.IsWeekendDay(System.DateTime)">
+            <summary>
+            Determines whether [is weekend day].
+            </summary>
+            <param name="instance">The instance.</param>
+            <returns>
+              <c>true</c> if [is weekend day] [the specified instance]; otherwise, <c>false</c>.
+            </returns>
+        </member>
+        <member name="M:Scorchio.ExtensionMethods.DateTimeExtensions.IsTimeEqual(System.DateTime,System.DateTime)">
+            <summary>
+            Determines whether [is time equal] [the specified time to compare].
+            </summary>
+            <param name="instance">The instance.</param>
+            <param name="timeToCompare">The time to compare.</param>
+            <returns>
+              <c>true</c> if [is time equal] [the specified time to compare]; otherwise, <c>false</c>.
+            </returns>
+        </member>
+        <member name="M:Scorchio.ExtensionMethods.DateTimeExtensions.StartOfYear(System.DateTime)">
+            <summary>
+            Starts the of year.
+            </summary>
+            <param name="instance">The instance.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Scorchio.ExtensionMethods.ObjectExtensions.SerializeToXml(System.Object)">
+            <summary>
+            Serializes to Xml.
+            </summary>
+            <param name="instance">The instance.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Scorchio.ExtensionMethods.StringExtensions.UpperCaseFirstCharacter(System.String)">
+            <summary>
+            Uppercases the first character.
+            </summary>
+            <param name="instance">The instance.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Scorchio.ExtensionMethods.StringExtensions.LowerCaseFirstCharacter(System.String)">
+            <summary>
+            Lower cases the first character.
+            </summary>
+            <param name="instance">The instance.</param>
+            <returns>The string.</returns>
+        </member>
+        <member name="M:Scorchio.ExtensionMethods.StringExtensions.ToTitleCase(System.String)">
+            <summary>
+            To the title case.
+            </summary>
+            <param name="instance">The instance.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Scorchio.ExtensionMethods.StringExtensions.Obfuscate(System.String,System.Int32,System.Int32,System.Char)">
+            <summary>
+            Obfuscates the substring.
+            </summary>
+            <param name="instance">The instance.</param>
+            <param name="startPoint">The start point.</param>
+            <param name="length">The length.</param>
+            <param name="character">The character.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Scorchio.ExtensionMethods.XElementExtensions.GetAttributeValueOrDefault(System.Xml.Linq.XElement,System.String,System.String)">
+            <summary>
+            Gets the attribute value or default.
+            </summary>
+            <param name="instance">The instance.</param>
+            <param name="attributeName">Name of the attribute.</param>
+            <param name="defaultValue">The default value.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Scorchio.ExtensionMethods.XElementExtensions.GetElementValueOrDefault(System.Xml.Linq.XElement,System.String,System.String)">
+            <summary>
+            Gets the element value or default.
+            </summary>
+            <param name="instance">The instance.</param>
+            <param name="elementName">Name of the element.</param>
+            <param name="defaultValue">The default value.</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
