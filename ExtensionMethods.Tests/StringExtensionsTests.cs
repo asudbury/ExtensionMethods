@@ -42,7 +42,7 @@
         {
             return input.ToTitleCase();
         }
-
+ 
         /// <summary>
         /// Tests the obfuscate.
         /// </summary>
