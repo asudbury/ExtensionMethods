@@ -146,6 +146,13 @@
             <param name="character">The character.</param>
             <returns></returns>
         </member>
+        <member name="M:Scorchio.ExtensionMethods.StringExtensions.CompressGZip(System.String)">
+            <summary>
+            Compresses the gzip.
+            </summary>
+            <param name="this">The this.</param>
+            <returns></returns>
+        </member>
         <member name="T:Scorchio.ExtensionMethods.XElementExtensions">
             <summary>
             XElement Extensions

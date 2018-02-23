@@ -16,6 +16,7 @@
 - [ObjectExtensions](#T-Scorchio-ExtensionMethods-ObjectExtensions 'Scorchio.ExtensionMethods.ObjectExtensions')
   - [SerializeToXml(this)](#M-Scorchio-ExtensionMethods-ObjectExtensions-SerializeToXml-System-Object- 'Scorchio.ExtensionMethods.ObjectExtensions.SerializeToXml(System.Object)')
 - [StringExtensions](#T-Scorchio-ExtensionMethods-StringExtensions 'Scorchio.ExtensionMethods.StringExtensions')
+  - [CompressGZip(this)](#M-Scorchio-ExtensionMethods-StringExtensions-CompressGZip-System-String- 'Scorchio.ExtensionMethods.StringExtensions.CompressGZip(System.String)')
   - [LowerCaseFirstCharacter(this)](#M-Scorchio-ExtensionMethods-StringExtensions-LowerCaseFirstCharacter-System-String- 'Scorchio.ExtensionMethods.StringExtensions.LowerCaseFirstCharacter(System.String)')
   - [Obfuscate(this,startPoint,length,character)](#M-Scorchio-ExtensionMethods-StringExtensions-Obfuscate-System-String,System-Int32,System-Int32,System-Char- 'Scorchio.ExtensionMethods.StringExtensions.Obfuscate(System.String,System.Int32,System.Int32,System.Char)')
   - [ToTitleCase(this)](#M-Scorchio-ExtensionMethods-StringExtensions-ToTitleCase-System-String- 'Scorchio.ExtensionMethods.StringExtensions.ToTitleCase(System.String)')
@@ -254,6 +255,23 @@ Scorchio.ExtensionMethods
 ##### Summary
 
 String Extensions.
+
+<a name='M-Scorchio-ExtensionMethods-StringExtensions-CompressGZip-System-String-'></a>
+### CompressGZip(this) `method` [#](#M-Scorchio-ExtensionMethods-StringExtensions-CompressGZip-System-String- 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+Compresses the gzip.
+
+##### Returns
+
+
+
+##### Parameters
+
+| Name | Type | Description |
+| ---- | ---- | ----------- |
+| this | [System.String](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.String 'System.String') | The this. |
 
 <a name='M-Scorchio-ExtensionMethods-StringExtensions-LowerCaseFirstCharacter-System-String-'></a>
 ### LowerCaseFirstCharacter(this) `method` [#](#M-Scorchio-ExtensionMethods-StringExtensions-LowerCaseFirstCharacter-System-String- 'Go To Here') [=](#contents 'Back To Contents')

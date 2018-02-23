@@ -1,6 +1,9 @@
 ﻿namespace Scorchio.ExtensionMethods
 {
     using System.Globalization;
+    using System.IO;
+    using System.IO.Compression;
+    using System.Text;
 
     /// <summary>
     /// String Extensions.
@@ -95,6 +98,26 @@
             string end = @this.Substring(startPoint + length);
             
             return string.Concat(start, new string(character, length), end);
+        }
+
+        /// <summary>
+        /// Compresses the gzip.
+        /// </summary>
+        /// <param name="this">The this.</param>
+        /// <returns></returns>
+        public static byte[] CompressGZip(this string @this)
+        {
+            byte[] stringAsBytes = Encoding.Default.GetBytes(@this);
+
+            using (MemoryStream memoryStream = new MemoryStream())
+            {
+                using (GZipStream zipStream = new GZipStream(memoryStream, CompressionMode.Compress))
+                {
+                    zipStream.Write(stringAsBytes, 0, stringAsBytes.Length);
+                    zipStream.Close();
+                    return memoryStream.ToArray();
+                }
+            }
         }
     }
 }
