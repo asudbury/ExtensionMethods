@@ -12,6 +12,6 @@
         <language>en-GB</language>
     </metadata>
     <files>
-        <file src="ExtensionMethods\ExtensionMethods\bin\Debug\Scorchio.ExtensionMethods.dll" target="lib\Scorchio.ExtensionMethods.dll" />
+        <file src="ExtensionMethods\bin\Debug\Scorchio.ExtensionMethods.dll" target="lib\Scorchio.ExtensionMethods.dll" />
     </files>
 </package>
