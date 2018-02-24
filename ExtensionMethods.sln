@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27130.2027
+VisualStudioVersion = 15.0.27130.2036
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtensionMethods", "ExtensionMethods\ExtensionMethods.csproj", "{93141FEE-0BF0-40FA-A6A0-57BBB4EF1C4E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtensionMethods.Tests", "..\ExtensionMethods.Tests\ExtensionMethods.Tests.csproj", "{D4BB6CA0-BDC7-4844-B188-95BA7A8C1617}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtensionMethods.Tests", "ExtensionMethods.Tests\ExtensionMethods.Tests.csproj", "{D4BB6CA0-BDC7-4844-B188-95BA7A8C1617}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

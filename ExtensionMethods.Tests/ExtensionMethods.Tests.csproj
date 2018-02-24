@@ -52,7 +52,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ExtensionMethods\ExtensionMethods\ExtensionMethods.csproj">
+    <ProjectReference Include="..\ExtensionMethods\ExtensionMethods.csproj">
       <Project>{93141fee-0bf0-40fa-a6a0-57bbb4ef1c4e}</Project>
       <Name>ExtensionMethods</Name>
     </ProjectReference>
