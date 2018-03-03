@@ -85,6 +85,17 @@
             <param name="this">This.</param>
             <returns></returns>
         </member>
+        <member name="T:Scorchio.ExtensionMethods.FileExtensions">
+            <summary>
+            File Extensions. 
+            </summary>
+        </member>
+        <member name="M:Scorchio.ExtensionMethods.FileExtensions.DeleteIfExists(System.String)">
+            <summary>
+            Deletes if exists.
+            </summary>
+            <param name="path">The path.</param>
+        </member>
         <member name="T:Scorchio.ExtensionMethods.MailMessageExtensions">
             <summary>
             MailMessage Extensions.

@@ -11,6 +11,8 @@
   - [StartOfYear(this)](#M-Scorchio-ExtensionMethods-DateTimeExtensions-StartOfYear-System-DateTime- 'Scorchio.ExtensionMethods.DateTimeExtensions.StartOfYear(System.DateTime)')
   - [Tomorrow(this)](#M-Scorchio-ExtensionMethods-DateTimeExtensions-Tomorrow-System-DateTime- 'Scorchio.ExtensionMethods.DateTimeExtensions.Tomorrow(System.DateTime)')
   - [Yesterday(this)](#M-Scorchio-ExtensionMethods-DateTimeExtensions-Yesterday-System-DateTime- 'Scorchio.ExtensionMethods.DateTimeExtensions.Yesterday(System.DateTime)')
+- [FileExtensions](#T-Scorchio-ExtensionMethods-FileExtensions 'Scorchio.ExtensionMethods.FileExtensions')
+  - [DeleteIfExists(path)](#M-Scorchio-ExtensionMethods-FileExtensions-DeleteIfExists-System-String- 'Scorchio.ExtensionMethods.FileExtensions.DeleteIfExists(System.String)')
 - [MailMessageExtensions](#T-Scorchio-ExtensionMethods-MailMessageExtensions 'Scorchio.ExtensionMethods.MailMessageExtensions')
   - [Send(this)](#M-Scorchio-ExtensionMethods-MailMessageExtensions-Send-System-Net-Mail-MailMessage- 'Scorchio.ExtensionMethods.MailMessageExtensions.Send(System.Net.Mail.MailMessage)')
 - [ObjectExtensions](#T-Scorchio-ExtensionMethods-ObjectExtensions 'Scorchio.ExtensionMethods.ObjectExtensions')
@@ -192,6 +194,30 @@ Yesterdays the specified instance.
 | Name | Type | Description |
 | ---- | ---- | ----------- |
 | this | [System.DateTime](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.DateTime 'System.DateTime') | This. |
+
+<a name='T-Scorchio-ExtensionMethods-FileExtensions'></a>
+## FileExtensions [#](#T-Scorchio-ExtensionMethods-FileExtensions 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Namespace
+
+Scorchio.ExtensionMethods
+
+##### Summary
+
+File Extensions.
+
+<a name='M-Scorchio-ExtensionMethods-FileExtensions-DeleteIfExists-System-String-'></a>
+### DeleteIfExists(path) `method` [#](#M-Scorchio-ExtensionMethods-FileExtensions-DeleteIfExists-System-String- 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+Deletes if exists.
+
+##### Parameters
+
+| Name | Type | Description |
+| ---- | ---- | ----------- |
+| path | [System.String](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.String 'System.String') | The path. |
 
 <a name='T-Scorchio-ExtensionMethods-MailMessageExtensions'></a>
 ## MailMessageExtensions [#](#T-Scorchio-ExtensionMethods-MailMessageExtensions 'Go To Here') [=](#contents 'Back To Contents')
