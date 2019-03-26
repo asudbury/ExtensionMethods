@@ -15,9 +15,7 @@
     </tr>
     <tr>
         <td align="center"><a href="https://www.nuget.org/packages/Scorchio.ExtensionMethods">Nuget Package</a></td>
-        <td align="center"><a href="https://img.shields.io/nuget/v/Scorchio.ExtensionMethods.svg">
-</a></td>
-    </tr>
+        <td align="center"><img src="https://img.shields.io/nuget/v/Scorchio.ExtensionMethods.svg"></img></td>
 </table>
 
 
