@@ -1,7 +1,5 @@
 # Extension Methods
 
-1
-
 <table align="center">
     <tr>
         <td align="center"><a href=http://vm-scorchio.westeurope.cloudapp.azure.com:888/viewType.html?buildTypeId=ExtensionMethods_Build&guest=1)>Team City Build Status</a></td>
@@ -21,8 +19,6 @@
 </a></td>
     </tr>
 </table>
-
-2
 
 
 [Application Programming Interface](Scorchio.ExtensionMethods.md)
